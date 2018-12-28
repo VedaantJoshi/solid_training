@@ -11,5 +11,20 @@ public class Car
         _id = id;
         _model = model;
         _brand = brand;
-    } 
+    }
+
+    public String getId()
+    {
+        return _id;
+    }
+
+    public String getModel()
+    {
+        return _model;
+    }
+
+    public String getBrand()
+    {
+        return _brand;
+    }
 }
